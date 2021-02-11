@@ -1,0 +1,23 @@
+._customer-title
+    position: relative
+    color: #333333
+    font-family: "Roboto", sans-serif
+    font-size: 26px
+    font-weight: 500
+    padding-left: 26px
+    line-height: 32px
+    &:before
+        content: ''
+        display: block
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        left: 0
+        width: 13px
+        height: 13px
+        background-color: #f98900
+        border-radius: 100%
+    &_without-dot
+        padding-left: 0
+        &:before
+            display: none
